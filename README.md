@@ -6,13 +6,15 @@ We get this files by applying the Assembly option in Windows. This was done with
 
 ## Game Versions
 
-Originally run with `1.0.1c`. I have tried it also with versions:
+The following versions have been tried successfully:
 
+- `1.0.7f`
 - `1.0.6d`
 - `1.0.4d`
 - `1.0.3d`
 - `1.0.2f`
 - `1.0.2b`
+- `1.0.1c` (original version when the files were modified)
 
 ## Download and unzip
 
