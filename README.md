@@ -1,28 +1,28 @@
-# UnityModManager changed files for Pathfinder Wrath of the Righteous for MacOS
+# UnityModManager changed files for Pathfinder Wrath of the Righteous version 1.1 for MacOS
+
+Repo and instructions in <https://github.com/eturino/UMM-MAC-PathfinderWotR>
 
 We get this files by applying the Assembly option in Windows. This was done with the following versions
 
-- UnityModManager version: `0.23.5b`
+- UnityModManager version: `0.24.0a`
 
 ## Game Versions
 
 The following versions have been tried successfully:
 
-- `1.0.9c`
-- `1.0.8d`
-- `1.0.7f`
-- `1.0.6d`
-- `1.0.4d`
-- `1.0.3d`
-- `1.0.2f`
-- `1.0.2b`
-- `1.0.1c` (original version when the files were modified)
+- `1.1.0k` (original version when the files were modified)
+
+## Older versions
+
+You can access the version developed for the v1.0.x versions of the game in <https://github.com/eturino/UMM-MAC-PathfinderWotR/tree/1-0>
 
 ## Download and unzip
 
 Download and unzip the `UMM-modified-pathfinder-wotr.zip` file. For the rest of this README, we'll assume that the contents are now in the `~/Downloads/UMM-modified-pathfinder-wotr/` folder.
 
 ## In Steam
+
+First of all, ensure that you don't have a patch already applied. You can do that by using Steam's Verification of local files, to restore all local files.
 
 The base folder, unless otherwise specified, will be `~/Library/Application\ Support/Steam/steamapps/common/Pathfinder\ Second\ Adventure/`
 
@@ -31,6 +31,15 @@ In that base folder, we need to create a new `Mods` folder. This is where we nee
 ```sh
 mkdir ~/Library/Application\ Support/Steam/steamapps/common/Pathfinder\ Second\ Adventure/Mods
 ```
+
+Now we'll make a backup of the dll file that we will replace later:
+
+```sh
+cd ~/Library/Application\ Support/Steam/steamapps/common/Pathfinder\ Second\ Adventure/Wrath.app/Contents/Resources/Data/Managed
+cp -a UnityEngine.UIModule.dll UnityEngine.UIModule.dll.original_
+```
+
+If we already have a UnityEngine.UIModule.dll.original_ file, overwrite it.
 
 After that, we need to add the UnitedModManager folder into the app.
 
@@ -42,7 +51,6 @@ This will copy:
 
 - the UnityModManager folder
 - `UnityEngine.UIModule.dll` (replace with the one that is there)
-- `UnityEngine.UIModule.dll.original_` (backup from the original)
 
 When asked if you want to replace files, say yes.
 
