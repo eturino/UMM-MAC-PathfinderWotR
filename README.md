@@ -8,6 +8,7 @@ We get this files by applying the Assembly option in Windows. This was done with
 
 The following versions have been tried successfully:
 
+- `1.0.9c`
 - `1.0.8d`
 - `1.0.7f`
 - `1.0.6d`
