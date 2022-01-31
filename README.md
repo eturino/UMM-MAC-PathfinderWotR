@@ -10,7 +10,7 @@ We get this files by applying the Assembly option in Windows. This was done with
 
 The following versions have been tried successfully:
 
-- `1.1.0k` (original version when the files were modified)
+- `1.1.7f` (original version when the files were modified)
 
 ## Older versions
 
