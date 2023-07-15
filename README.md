@@ -1,5 +1,11 @@
 # UnityModManager changed files for Pathfinder Wrath of the Righteous version 1.1 for MacOS
 
+## NOT MAINTAINED
+
+**I am not able to continue with the updates of this repo**. If anyone wants to keep this alive I'll gladly transfer the repo.
+
+## Intro
+
 Repo and instructions in <https://github.com/eturino/UMM-MAC-PathfinderWotR>
 
 We get this files by applying the Assembly option in Windows. This was done with the following versions
